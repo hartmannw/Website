@@ -51,22 +51,26 @@
 	    <div id="inner-prettification">
 
 	      <div id="header">
-          <h1 id="title"><a href="pronunciation_learning.html">Acoustic Unit Discovery and Lexicon Learning for Low-Resource Languages</a></h1>
+          <h1 id="title"><a href="subword_kws.html">Subword-based Keyword Spotting</a></h1>
   </div>
 
   <div id="contents">
-    <p>While most aspects of ASR are heavily data-driven, the lexicon and acoustic unts are typically derived by experts. For low-resource languages these expert-defined lexicons may not be available. We propose methods for both discovering acoustic units and learning pronunciations using the discovered units. Our initial work relies on the use of an initial grapheme-based lexicon. Acoustic models representing the graphemes are clustered to generate a new set of acoustic units. Pronunciations are generated using a statistical machine translation based approach.</p>
+    <p>For languages with limitied training resources, out-of-vocabulary (OOV) words are a significant problem. This can be especially problematic for keyword spotting (KWS) where many of the target words are infrequently seen. We explore a subword-based approach to detecting OOV keywords. While a word may be OOV, subsequences of characters within the word may be present in the training data. Depending on the type of subwords used, the number of OOV words can be drastically reduced. In our work, we use several types of subwords and search stategies on the data within the IARPA Babel project.</p>
     <ol class="decorated">
-      <li><a href="publications/hartmann_eusipco2014.pdf" title="Download a preprint of the article"><img width="32px" height="32px" src="images/text-x-generic.png" alt="File icon" /></a>
-        <strong>&#8220;Efficient Rule Scoring for Improved Grapheme-Based Lexicons&#8221;</strong>
-        <br /><em>W. Hartmann</em>, L. Lamel, and J.-L. Gauvain
-        <br />Proceedings of EUSIPCO, 2014
+      <li><a href="publications/hartmann_interspeech2014.pdf" title="Download a preprint of the article"><img width="32px" height="32px" src="images/text-x-generic.png" alt="File icon" /></a>
+        <strong>&#8220;Comparing Decoding Strategies for Subword-based Keyword Spotting in Low-Resourced Languages&#8221;</strong>
+        <br /><em>W. Hartmann</em>, V.-B. Le, A. Messaoudi, L. Lamel, and J.-L. Gauvain
+        <br />Proceedings of Interspeech, 2014
       </li>
-      <li><a href="http://dx.doi.org/10.1109/ASRU.2013.6707760" title="Download a postprint of the article"><img width="32px" height="32px" src="images/font-x-generic.png" alt="File icon" /></a>
-        <a href="publications/hartmann_asru2013.pdf" title="Download a preprint of the article"><img width="32px" height="32px" src="images/text-x-generic.png" alt="File icon" /></a>
-        <strong>&#8220;Acoustic Unit Discovery and Pronunciation Generation from a Grapheme-Based Lexicon&#8221;</strong>
-        <br /><em>W. Hartmann</em>, A. Roy, L. Lamel, and J.-L. Gauvain 
-        <br />Proceedings of IEEE ASRU, pp. 380-385, 2013
+      <li><a href="publications/le_interspeech2014.pdf" title="Download a preprint of the article"><img width="32px" height="32px" src="images/text-x-generic.png" alt="File icon" /></a>
+        <strong>&#8220;Developing STT and KWS Systems Using Limited Language Resources&#8221;</strong>
+        <br />V.-B. Le, L. Lamel, A. Messaoudi, <em>W. Hartmann</em>, J.-L. Gauvain, C. Woehrling, J. Despres, and A. Roy
+        <br />Proceedings of Interspeech, 2014
+      </li>
+      <li><a href="publications/hartmann_sltu2014.pdf" title="Download a preprint of the article"><img width="32px" height="32px" src="images/text-x-generic.png" alt="File icon" /></a>
+        <strong>&#8220;Cross-Word Sub-Word Units for Low-Resource Keyword Spotting&#8221;</strong>
+        <br /><em>W. Hartmann</em>, L. Lamel, and J.-L. Gauvain
+        <br />Proceedings of SLTU, pp. 112-117, 2014
       </li>
     </ol>
       </div>
